@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.c-plus-plus-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>C++Code</string>
+	<key>Description</key>
+	<string>A C++ file for boards running on the Wiring / Arduino framework.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.cpp</string>
+	<key>Summary</key>
+	<string>A C++ file for boards running on the Wiring / Arduino framework</string>
+	<key>SortOrder</key>
+	<string>8</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the file to create</string>
+			<key>Default</key>
+			<string>newCode</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Whether to include a header file with the same name</string>
+			<key>Identifier</key>
+			<string>WithHeader</string>
+			<key>Name</key>
+			<string>Include a header file</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

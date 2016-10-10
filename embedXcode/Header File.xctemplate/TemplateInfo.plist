@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.c-header</string>
+		<string>public.c-plus-plus-header</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Header</string>
+	<key>Description</key>
+	<string>A header file.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>MainTemplateFiles</key>
+	<string>___FILEBASENAME___.h</string>
+	<key>Summary</key>
+	<string>A header file</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the file to create</string>
+			<key>Default</key>
+			<string>newHeader</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>AllowedTypes</key>
+			<dict>
+				<key>BeagleBone</key>
+				<array>
+					<string>public.c-header</string>
+				</array>
+				<key>Edison Yocto</key>
+				<array>
+					<string>public.c-header</string>
+				</array>
+				<key>Default</key>
+				<array>
+					<string>public.c-header</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>Default</string>
+			<key>Description</key>
+			<string>Select the platform </string>
+			<key>Identifier</key>
+			<string>plaftormChoice</string>
+			<key>Name</key>
+			<string>Header for:</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Default</string>
+				<string>mbed</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
