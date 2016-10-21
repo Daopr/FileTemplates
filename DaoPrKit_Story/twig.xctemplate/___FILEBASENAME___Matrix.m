@@ -5,7 +5,7 @@
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
-- (void)initScene
+- (void)initViewController
 {
 
 }
